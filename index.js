@@ -38,8 +38,6 @@ function makeInt(a){
   if(typeof a === "string"){
     return parseInt(a)
   }else if (isNaN(a) != false){
-    return true
-  }else{
     var i = 0
     return i
   }
