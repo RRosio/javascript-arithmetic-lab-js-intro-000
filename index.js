@@ -40,6 +40,8 @@ function makeInt(a){
     return i
   }else if (typeof a === "string"){
     return parseInt(a)
+  }else{
+    return a
   }
 }
 
