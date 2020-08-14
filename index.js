@@ -39,7 +39,7 @@ function makeInt(a){
     var i = 0
     return i
   }else if (typeof a === "string"){
-    return parseInt(a)
+    return Integer.parseInt(a)
   }
 }
 
