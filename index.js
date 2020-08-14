@@ -36,7 +36,7 @@ function decrement(n){
 
 function makeInt(a){
   if(isNaN(a) != false){
-    var i = 0
+    var i = 1
     return i
   }else if (typeof a === "string"){
     return parseInt(a)
