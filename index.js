@@ -35,6 +35,7 @@ function decrement(n){
 }
 
 function makeInt(a){
+  //Need better way to catch the 9000. TO_REVIEW
   if(typeof a === "string" && parseInt(a, 16) != 9000){
     return parseInt(a)
   }else if (parseInt(a, 16) >= 0){
