@@ -39,9 +39,6 @@ function makeInt(a){
     return parseInt(a)
   }else if (isNaN(a) != false){
     return true
-  }else if(a > 8999){
-    var i = 0
-    return i
   }else{
     var i = 0
     return i
