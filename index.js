@@ -35,7 +35,7 @@ function decrement(n){
 }
 
 function makeInt(a){
-  if(typeof a === "string" && a.match(/^#[a-f0-9]{6}$/i) === null){
+  if(typeof a === "string"){
     return parseInt(a)
   }else if (isNaN(a) != false){
     return true
